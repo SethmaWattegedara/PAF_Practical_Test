@@ -29,12 +29,12 @@ $(document).on("click", "#btnSave", function(event)
 	
 	// If valid-----------------------
 	
-	//var type = ($("#hidPatientIDSave").val() == "") ? "POST" : "PUT";
+	var type = ($("#hidPatientIDSave").val() == "") ? "POST" : "PUT";
 	
-	if ($("#hidPatientIDSave").val().trim() =="")
+/*	if ($("#hidPatientIDSave").val().trim() =="")
 		type = "POST";
 	else
-    	type = "PUT";
+    	type = "PUT";*/
 	
 	$.ajax(
 			{
