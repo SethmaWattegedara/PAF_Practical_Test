@@ -1,5 +1,5 @@
 <%@page import="model.PatientReg"%>
-<%@page import="com.PatientServlet"%>
+
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -49,7 +49,7 @@
 							<span class="input-group-text" id="lblName">Gender:
 							</span>
 						</div>
-						<input type="text" id="gender" name="gender" class="form-control form-control-sm">
+						<input type="text" id="gender" name="gender" class="form-control form-control-sm" placeholder="Male or Female">
 					</div>
 					
 									
